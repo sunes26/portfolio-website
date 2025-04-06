@@ -19,7 +19,7 @@ const Certifications = () => {
                     <p className="text-gray-600">{cert.issuer}</p>
                   </div>
                 </div>
-                <a className="text-gray-500 mb-4">{cert.date}</a>
+                <a className="text-gray-500 mb-4" href="#certification">{cert.date}</a>
               </div>
             </div>
           ))}
