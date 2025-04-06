@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">{portfolioData.profile.name} 포트폴리오</h1>
+        <h1 className="text-xl font-bold">{portfolioData.profile.name}</h1>
         <nav aria-label="주요 메뉴">
           <ul className="flex space-x-6">
             <li><a href="#profile" onClick={(e) => scrollToSection('profile', e)} className="hover:text-blue-300 transition cursor-pointer" aria-label="소개 섹션으로 이동">소개</a></li>
