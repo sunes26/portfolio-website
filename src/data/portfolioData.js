@@ -53,7 +53,23 @@ const portfolioData = {
         technologies: ['React', 'Tailwind CSS',],
         github: 'https://github.com/username/portfolio',
         live: 'https://myportfolio.com'
-      }
+      },
+      {
+        title: 'css스캔 확장프로그램',
+        description: '자바스크립트를 이용한 확장프로그램 프로젝트 입니다.웹상의 css를 스캔하여 복사 할수 있는 기능을 구현했습니다.',
+        image: '/images/projects/project3.png',
+        technologies: ['Javascript','Html', 'Tailwind CSS', ],
+        github: 'https://github.com/sunes26/css-scanner-extension',
+        live: 'https://myportfolio.com'
+      },
+      {
+        title: 'api 테스트 확장프로그램',
+        description: '자바스크립트와 리엑트트를 이용한 확장프로그램 프로젝트 입니다. get, post, put, delete 등의 요청을 테스트 할 수 있는 기능을 구현했습니다.',
+        image: '/images/projects/project4.png',
+        technologies: ['Javascript','React', 'Tailwind CSS', ],
+        github: 'https://github.com/sunes26/ApiTest-Pro',
+        live: 'https://myportfolio.com'
+      },
     ]
   };
   
