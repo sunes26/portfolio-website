@@ -82,6 +82,14 @@ const portfolioData = {
         github: 'https://github.com/sunes26/mind_scanner',
         live: 'https://www.mindscanner.site'
       },
+      {
+    title: '나비 (Nabi) - 마음을 나누는 힐링 커뮤니티',
+    description: 'React와 TypeScript를 이용한 익명 힐링 커뮤니티 웹 애플리케이션입니다. Firebase Firestore를 활용하여 고민과 걱정을 포스트잇에 적어 하늘로 날려보내고, 좋아요와 댓글을 통해 서로에게 위로를 전할 수 있습니다. 무한 스크롤, 검색 기능, 관리자 대시보드 등의 기능을 구현했습니다.',
+    image: '/images/projects/project6.png',
+    technologies: ['TypeScript', 'React', 'Vite', 'Firebase', 'Framer Motion'],
+    github: 'https://github.com/your-username/postit-nabi',
+    live: 'https://postit-nabi.web.app'
+  }
     ]
   };
   
