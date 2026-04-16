@@ -89,7 +89,16 @@ const portfolioData = {
     technologies: ['TypeScript', 'React', 'Vite', 'Firebase', 'Framer Motion'],
     github: 'https://github.com/your-username/postit-nabi',
     live: 'https://postit-nabi.web.app'
+  },
+  {
+    title: '독백일기 - AI 음성 자동 일기 & 감정 성장 앱',
+    description: 'React Native와 TypeScript를 이용한 안드로이드 앱입니다. "3분 말하면 AI가 당신의 하루를 기록한다"는 컨셉으로, OpenAI Whisper로 음성을 텍스트로 변환하고 GPT-4o가 일기를 자동 생성합니다. 감정 캘린더, 주간 AI 리포트, 감정 인사이트 등의 기능을 구현했으며 Google Play Store에 출시했습니다.',
+    image: '/images/projects/project7.png',
+    technologies: ['React Native', 'TypeScript', 'Expo', 'Firebase', 'OpenAI', 'RevenueCat'],
+    github: 'https://github.com/sunes26/dokbaekdiary',
+    live: 'https://play.google.com/store/apps/details?id=com.oceancode.dokbaekdiary'
   }
+
     ]
   };
   

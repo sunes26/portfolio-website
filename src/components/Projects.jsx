@@ -55,7 +55,7 @@ const Projects = () => {
                       href={project.github} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-gray-800 hover:text-black font-medium inline-flex items-center"
+                      className="bg-gray-800 hover:bg-gray-900 border border-gray-800 text-white font-medium inline-flex items-center px-3 py-1 rounded-md text-sm"
                       onClick={(e) => e.stopPropagation()}
                     >
                       <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24">
