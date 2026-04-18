@@ -87,7 +87,7 @@ const portfolioData = {
     description: 'React와 TypeScript를 이용한 익명 힐링 커뮤니티 웹 애플리케이션입니다. Firebase Firestore를 활용하여 고민과 걱정을 포스트잇에 적어 하늘로 날려보내고, 좋아요와 댓글을 통해 서로에게 위로를 전할 수 있습니다. 무한 스크롤, 검색 기능, 관리자 대시보드 등의 기능을 구현했습니다.',
     image: '/images/projects/project6.png',
     technologies: ['TypeScript', 'React', 'Vite', 'Firebase', 'Framer Motion'],
-    github: 'https://github.com/your-username/postit-nabi',
+    github: 'https://github.com/sunes26/postit-nabi',
     live: 'https://postit-nabi.web.app'
   },
   {
@@ -96,10 +96,26 @@ const portfolioData = {
     image: '/images/projects/project7.png',
     technologies: ['React Native', 'TypeScript', 'Expo', 'Firebase', 'OpenAI', 'RevenueCat'],
     github: 'https://github.com/sunes26/dokbaekdiary',
-    live: 'https://play.google.com/store/apps/details?id=com.oceancode.dokbaekdiary'
-  }
+    downloadUrl: 'https://play.google.com/store/apps/details?id=com.oceancode.dokbaekdiary'
+  },
+  {
+    title: 'ImageKit - 이미지 편집 앱',
+    description: 'React Native(Expo)와 TypeScript를 이용한 안드로이드 이미지 편집 앱입니다. 이미지 크롭·회전·뒤집기·필터 적용, 포맷 변환(JPG/PNG/WEBP), 이미지 압축, EXIF 메타데이터 제거, AI 업스케일(Real-ESRGAN), 배경 제거, PDF 변환 등 다양한 이미지 처리 기능을 구현했습니다. Zustand를 활용한 상태관리와 다크/라이트 테마를 지원합니다.',
+    image: '/images/projects/project8.png',
+    technologies: ['React Native', 'TypeScript', 'Expo', 'Zustand', 'React Navigation'],
+    github: 'https://github.com/sunes26/imagekit',
+    downloadUrl: 'https://play.google.com/store/apps/details?id=com.oceancode.imagekitapp'
+  },
+  {
+    title: 'PRmate - 한국어 AI 코드 리뷰 GitHub Action',
+    description: 'Next.js와 TypeScript를 이용한 한국어 특화 AI 코드 리뷰 SaaS입니다. GitHub PR이 열리면 자동으로 한국어로 코드 리뷰 코멘트를 게시하며, 우아한테크코스·네이버 Hackday·토스 Frontend Fundamentals 등 공식 컨벤션 프리셋을 내장했습니다. Claude API Prompt Caching으로 토큰 비용 50~90% 절감, API 키·비밀번호 자동 마스킹 기능을 구현했습니다. 현재는 GitHub Actions 기반으로 동작하며, 추후 설치형 GitHub App으로 전환하여 더 넓은 사용자층에게 제공할 계획입니다.',
+    image: '/images/projects/project9.png',
+    technologies: ['Next.js', 'TypeScript', 'Claude API', 'GitHub Actions', 'Vercel'],
+    github: 'https://github.com/sunes26/prmate',
+    live: 'https://prmate.me',
+  },
 
-    ]
+]
   };
   
   export default portfolioData;
