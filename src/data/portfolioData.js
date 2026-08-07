@@ -145,8 +145,8 @@ const portfolioData = {
     live: 'https://sunes26.github.io/subway-rush/game/dist/index.html'
   },
   {
-    title: 'StarCut - 유튜브 쇼츠 자동 생성 로컬 앱',
-    description: 'Next.js와 TypeScript를 이용한 로컬 실행 쇼츠 생성 앱입니다. 유튜브 롱폼 다운로드부터 음성 인식, 하이라이트 구간 선정, 합성 렌더까지 전부 사용자 PC에서 처리하며, 주소 하나만 입력하면 사용량 제한이나 만료 없이 후보 구간 전체를 쇼츠로 만들어줍니다.',
+    title: 'StarCut - 유튜브 쇼츠 자동 생성 앱',
+    description: 'Next.js와 TypeScript를 이용한 유튜브 쇼츠 자동 생성 앱입니다. 유튜브 롱폼 영상의 다운로드, 음성 인식, 하이라이트 구간 선정, 합성 렌더까지 하나의 파이프라인으로 처리하며, 주소 하나만 입력하면 중간 확인 없이 후보 구간 전체를 쇼츠로 만들어줍니다.',
     image: '/images/projects/project14.png',
     technologies: ['Next.js', 'TypeScript', 'Drizzle', 'ffmpeg', 'Claude API'],
     live: 'https://www.starcut.co.kr/'
