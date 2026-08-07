@@ -114,6 +114,43 @@ const portfolioData = {
     github: 'https://github.com/sunes26/prmate',
     live: 'https://prmate.me',
   },
+  {
+    title: 'Spanlens - LLM 옵저버빌리티 플랫폼',
+    description: 'Next.js와 TypeScript를 이용한 오픈소스 LLM 옵저버빌리티 SaaS입니다. OpenAI·Anthropic·Gemini 등 11개 프로바이더의 모든 호출을 비용·토큰·레이턴시·에이전트 트레이스와 함께 로깅하며, 번들 MCP 서버를 통해 Cursor·Claude Desktop에서 바로 조회할 수 있습니다. Docker 한 줄로 셀프호스팅이 가능합니다.',
+    image: '/images/projects/project10.png',
+    technologies: ['Next.js', 'TypeScript', 'Supabase', 'ClickHouse', 'Docker'],
+    github: 'https://github.com/spanlens/Spanlens',
+    live: 'https://www.spanlens.io/'
+  },
+  {
+    title: '영어회화 학습 앱',
+    description: 'React와 TypeScript, Vite PWA를 이용한 영어회화 학습 앱입니다. 문장 단위 섀도잉 플레이어, 발음 녹음·STT 피드백, AI 대화 파트너 등을 통해 귀뚫기부터 실전 대화까지 3단계 성장형 학습 루틴을 구현했습니다.',
+    image: '/images/projects/project11.png',
+    technologies: ['React', 'TypeScript', 'Vite', 'Zustand', 'PWA'],
+    github: 'https://github.com/sunes26/study-english'
+  },
+  {
+    title: 'Quick Call - 전화번호 단축 다이얼 앱',
+    description: 'Flutter를 이용한 Android 전용 단축 다이얼 앱입니다. 홈 화면 위젯으로 앱 실행 없이 즉시 전화를 걸 수 있고, 그룹별 관리, 30색 커스터마이징, 드래그 앤 드롭 정렬 등의 기능을 구현했으며 Google Play Store에 출시했습니다.',
+    image: '/images/projects/project12.png',
+    technologies: ['Flutter', 'Dart', 'Provider', 'SQLite'],
+    downloadUrl: 'https://play.google.com/store/apps/details?id=com.oceancode.quick_call'
+  },
+  {
+    title: '지하철 러쉬 (Subway Rush)',
+    description: '버스에서 내린 뒤 180초 안에 지하철에 탑승해야 하는 시간제한 어드벤처 퍼즐 게임입니다. Blender 3D 파이프라인으로 플레이어·NPC 캐릭터와 맵을 직접 제작했으며, 속도가 아닌 정보 부족으로 플레이어를 막는 설계를 통해 첫 실패조차 엔딩으로 처리되도록 기획했습니다.',
+    image: '/images/projects/project13.png',
+    technologies: ['Blender', '3D Pipeline', 'Game Design'],
+    github: 'https://github.com/sunes26/subway-rush',
+    live: 'https://sunes26.github.io/subway-rush/game/dist/index.html'
+  },
+  {
+    title: 'StarCut - 유튜브 쇼츠 자동 생성 로컬 앱',
+    description: 'Next.js와 TypeScript를 이용한 로컬 실행 쇼츠 생성 앱입니다. 유튜브 롱폼 다운로드부터 음성 인식, 하이라이트 구간 선정, 합성 렌더까지 전부 사용자 PC에서 처리하며, 주소 하나만 입력하면 사용량 제한이나 만료 없이 후보 구간 전체를 쇼츠로 만들어줍니다.',
+    image: '/images/projects/project14.png',
+    technologies: ['Next.js', 'TypeScript', 'Drizzle', 'ffmpeg', 'Claude API'],
+    live: 'https://www.starcut.co.kr/'
+  },
 
 ]
   };
