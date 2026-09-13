@@ -1,9 +1,9 @@
 const portfolioData = {
     profile: {
       name: '전해성',
-      title: '프론트엔드 개발자',
+      title: '풀스택 개발자 · AI 에이전트 엔지니어',
       image: '/images/profile.png', // 실제 사용 시 이미지 경로로 대체
-      bio: '실용적이고 사람들에게 도움이 되는 서비스를 만드는 걸 좋아해서,  대학생들을 위한 프로그램 등 일상 속에서 유용한 도구들을 개발해왔습니다.  실제 사용자들이 내 서비스를 사용하면서 편리함을 느끼는 모습을 볼 때 큰 보람을 느낍니다. 지금도 새로운 기술을 배우고 있으며 앞으로도 사람들에게 긍정적인 영향을 주는 개발자가 되고자 합니다.',
+      bio: '아이디어를 기획부터 배포까지 혼자 완성하는 풀스택 개발자입니다. LLM 파이프라인, 자동화 SaaS, 모바일 앱까지 다양한 형태의 AI 프로덕트를 직접 설계하고 만들어왔습니다. PRmate, Spanlens, StarCut처럼 실제 사용자가 있는 서비스를 운영하면서, 사람들이 제가 만든 도구로 시간을 아끼는 모습을 볼 때 가장 큰 보람을 느낍니다. 지금도 새로운 AI 기술을 실제 제품에 빠르게 녹여내는 방법을 계속 연구하고 있습니다.',
       contact: {
         email: 'haeseong050321@email.com',
         github: 'https://github.com/sunes26',
@@ -12,13 +12,14 @@ const portfolioData = {
       }
     },
     skills: [
-      { name: 'HTML', level: 80 },
-      { name: 'CSS/Tailwind', level: 85 },
-      { name: 'JavaScript', level: 70 },
-      { name: 'React.js', level: 70 },
-      { name: 'Node.js', level: 35 },
-      { name: 'Python', level: 73 },
-      { name: 'UI/UX Design', level: 50 }
+      { name: 'TypeScript', level: 85 },
+      { name: 'React / Next.js', level: 85 },
+      { name: 'AI 에이전트 · LLM 연동 (Claude API, OpenAI)', level: 80 },
+      { name: 'Tailwind CSS / UI 구현', level: 80 },
+      { name: 'Node.js & API 설계', level: 70 },
+      { name: 'React Native / Expo (모바일)', level: 70 },
+      { name: 'Database & Infra (Supabase, Firebase, Docker)', level: 65 },
+      { name: 'Python', level: 65 }
     ],
     certifications: [
       {
@@ -26,13 +27,6 @@ const portfolioData = {
         issuer: '한국생산성본부(KPC)',
         date: '2021년 12월',
         image: '/images/certifications/cert1.png',
-        url: 'https://example.com/cert1'
-      },
-      {
-        name: '한국사능력검정시험 1급',
-        issuer: '국사편찬위원회',
-        date: '2025년 3월',
-        image: '/images/certifications/cert2.png',
         url: 'https://example.com/cert1'
       }
     ],
